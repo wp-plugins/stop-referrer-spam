@@ -8,10 +8,10 @@ Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-If you see referral spam in your analytics, this plugin is for you. It will block unwanted traffic from spam domains (like floating-share-buttons.com or www.Get-Free-Traffic-Now.com), quickly and easily, hassle-free.
+If you see referral spam in your analytics and would like to block it, this plugin is for you. It will block unwanted traffic from spam domains (like floating-share-buttons.com or www.Get-Free-Traffic-Now.com), quickly and easily, hassle-free.
 
 == Description ==
-This plugin blocks referrer spam that you can see in your page statistics. This problem is also widely known as "spam referrer attacks".
+This plugin blocks referrer spam that you see in your page statistics. This problem is also widely known as "spam referrer attacks".
 
 = The biggest list of spammers =
 Plugin uses the biggest public list of URLs that are considered as a spamming services; **over 270 URLs** right now!
@@ -49,5 +49,6 @@ No, not at all.
 Nope, no need of an account.
 
 == Changelog ==
+1.0.2 - changed description, corrected version number
 1.0.1 - changed blacklist endpoint, removed short tags
 1.0.0 - official release
