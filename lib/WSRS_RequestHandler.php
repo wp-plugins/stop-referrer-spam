@@ -56,15 +56,7 @@ class WSRS_RequestHandler
 
     private function getReferrer()
     {
-        if (!isset($_SERVER['HTTP_REFERER'])) {
-            return false;
-        }
-        $referrer = $_SERVER['HTTP_REFERER'];
-        if (empty($referrer)) {
-            return false;
-        }
-
-        return $referrer;
+        return wp_get_referer();
     }
 
     public function display404($noTemplate = true)

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Stop Referrer Spam
  * Description: Blocks unwanted referral spam that mess up your analytics data!
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Krzysztof Wielogórski
  * Author URI: http://wielo.co
  * License: GPL2

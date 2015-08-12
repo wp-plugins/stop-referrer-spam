@@ -3,18 +3,18 @@ Contributors: Krzysztof Wielogórski
 Tags: analytics, referral, spam, referrer, block, blocking, statistics, referer
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ARGWHYJRVFT5N
 Requires at least: 4.0
-Tested up to: 4.2.3
+Tested up to: 4.2.4
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-If you see referral spam in your analytics and would like to block it, this plugin is for you. It will block unwanted traffic from spam domains (like floating-share-buttons.com or www.Get-Free-Traffic-Now.com), quickly and easily, hassle-free.
+If you see referral spam in your analytics and would like to block it, this plugin is for you.
 
 == Description ==
 This plugin blocks referrer spam that you see in your page statistics. This problem is also widely known as "spam referrer attacks".
 
 = The biggest list of spammers =
-Plugin uses the biggest public list of URLs that are considered as a spamming services; **over 270 URLs** right now!
+Plugin uses the biggest public list of URLs that are considered as a spamming services; **over 270 URLs** right now! List is provided by Piwik, the biggest open source analytics system and you can find it [here](https://github.com/piwik/referrer-spam-blacklist); you can also contribute to that list by adding your own urls.
 
 = No annoying updates! =
 This plugin uses service located on our servers to update the list of spammers, hence **you do not have to update the plugin** itself whenever list is updated.
@@ -49,6 +49,7 @@ No, not at all.
 Nope, no need of an account.
 
 == Changelog ==
-1.0.2 - changed description, corrected version number
-1.0.1 - changed blacklist endpoint, removed short tags
-1.0.0 - official release
+* 1.0.3 - now using wp function to get referrer, improved description
+* 1.0.2 - changed description, corrected version number
+* 1.0.1 - changed blacklist endpoint, removed short tags
+* 1.0.0 - official release
