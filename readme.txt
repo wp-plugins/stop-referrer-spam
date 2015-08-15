@@ -49,6 +49,7 @@ No, not at all.
 Nope, no need of an account.
 
 == Changelog ==
+* 1.0.4 - added "refresh now" option; improved the script that updates the list
 * 1.0.3 - now using wp function to get referrer, improved description
 * 1.0.2 - changed description, corrected version number
 * 1.0.1 - changed blacklist endpoint, removed short tags

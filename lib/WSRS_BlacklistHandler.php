@@ -16,6 +16,12 @@ class WSRS_BlacklistHandler
             return;
         }
 
+        $decodedBlacklist = json_decode($blacklistJson, true);
+        if (null === $decodedBlacklist) {
+            error_log('Wordpress WSRS: downloaded blacklist is not a correct json');
+            return;
+        }
+
         $cachedBlacklistJson = get_option(WSRS_Config::WSRS_OPTION_BLACKLIST);
         if (false !== $cachedBlacklistJson && md5($blacklistJson) === md5($cachedBlacklistJson)) {
             return;
